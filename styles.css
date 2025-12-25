@@ -193,6 +193,11 @@ nav {
     position: relative;
     overflow: hidden;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background-image: url(./galleryitems/5.jpeg);
+    background-size: cover;
+    min-height: 700px;
+    background-color: grey;
+    background-blend-mode: darken;
 }
 
 .hero::before {
