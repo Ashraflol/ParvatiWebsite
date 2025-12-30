@@ -54,7 +54,8 @@ body {
     gap: 1rem;
 }
 
-.top-bar-left, .top-bar-right {
+.top-bar-left,
+.top-bar-right {
     display: flex;
     gap: 2rem;
     align-items: center;
@@ -98,6 +99,7 @@ nav {
     border-radius: 50%;
     object-fit: contain;
 }
+
 .logo-img img {
     width: 100%;
     height: 100%;
@@ -242,7 +244,8 @@ nav {
     animation: fadeInUp 1s 0.4s backwards;
 }
 
-.btn-primary, .btn-secondary {
+.btn-primary,
+.btn-secondary {
     padding: 15px 35px;
     text-decoration: none;
     border-radius: 30px;
@@ -282,6 +285,7 @@ nav {
         opacity: 0;
         transform: translateY(30px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -316,7 +320,7 @@ nav {
 
 .stat-item p {
     font-size: 1rem;
-    color: rgba(255,255,255,0.9);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 /* Container */
@@ -687,7 +691,8 @@ nav {
     gap: 0.5rem;
 }
 
-.contact-item p, .contact-item a {
+.contact-item p,
+.contact-item a {
     color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
     display: block;
@@ -855,7 +860,8 @@ footer {
         text-align: center;
     }
 
-    .top-bar-left, .top-bar-right {
+    .top-bar-left,
+    .top-bar-right {
         flex-direction: column;
         gap: 0.5rem;
     }
@@ -920,4 +926,9 @@ img {
     width: 100%;
     height: auto;
     object-fit: contain;
+}
+
+.logolink {
+    text-decoration: none;
+    color: inherit;
 }
